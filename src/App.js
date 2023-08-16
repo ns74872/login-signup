@@ -1,14 +1,33 @@
 import React from 'react';
-import './App.css';
-import Login from './login';
-import Signup from './signup';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom'
+import './App.css'; // Import your CSS file for styling
+import LoginForm from './component/login';
+import SignUpForm from './component/SignUp';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Login />
-      <Signup />
-    </div>      
+
+    <div>
+      <h1 id='title'>SPARDHA'23</h1>
+      <Router>
+        <Routes>
+          <Route path='/' element={<LoginForm/>}/>
+          <Route path='/Signup' element={<SignUpForm/>}/>
+
+          {/* <Route path='/' element={<SignUpForm/>}/>
+          <Route path='/login' element={<LoginForm/>}/> */}
+
+      </Routes>
+      </Router>
+
+    </div>
   );
 }
 

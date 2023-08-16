@@ -13,6 +13,17 @@
   }
 }
 
+#title{
+  background-color:aqua;
+  color: rgb(84, 38, 38);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* text-size-adjust: 300px; */
+  font-size: 12vh;
+  margin-top: 3vh;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
