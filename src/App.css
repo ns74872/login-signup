@@ -14,14 +14,14 @@
 }
 
 #title{
-  background-color:aqua;
-  color: rgb(84, 38, 38);
+  color: rgb(201, 212, 34);
   display: flex;
   justify-content: center;
   align-content: center;
  width: 100%;
   font-size: 400%;
   margin-top: 3vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .App-header {

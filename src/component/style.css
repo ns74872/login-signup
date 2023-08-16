@@ -1,6 +1,6 @@
 .signup-container {
     width: 300px;
-    margin: 8vh auto;
+    margin: 12vh auto;
     padding: 20px;
     border: 1px solid #ccc;
     background-color: white;
@@ -10,6 +10,13 @@
   
  body{
     background-color: aqua;
+    background-image: url("sports.avif");
+  height: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+
  }
 
 
@@ -50,7 +57,8 @@
   }
 
   .login-container {
-    width: 300px;
+    height: 600px;
+    width: 20vw;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
